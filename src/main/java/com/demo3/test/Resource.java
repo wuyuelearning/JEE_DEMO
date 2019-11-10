@@ -8,7 +8,7 @@ import org.springframework.context.annotation.PropertySource;
  * Created by wuyue on 2019/11/8.
  */
 @Configuration
-@ConfigurationProperties(prefix = "com.immoc.opensource")
+@ConfigurationProperties(prefix = "com.demo3.opensource")
 @PropertySource(value = "classpath:resource.properties")
 public class Resource {
     private String name;

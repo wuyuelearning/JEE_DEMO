@@ -13,7 +13,6 @@ import java.util.Date;
 
 public class User {
     private String name;
-    @JsonIgnore
     private String password;
     private Integer age;
     @JsonFormat(pattern = "yyyy-MM-dd hh:mm:ss a",locale = "zh",timezone = "GMT+8")
